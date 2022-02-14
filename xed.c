@@ -1,3 +1,11 @@
+/*
+* Student Name: Thai Bui
+* Class Account: cssc0408@edoras.sdsu.edu
+* Course: CS530, Spring 2022
+* Assignment #1, Hex/Bin File Reader
+* xed.c
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -122,7 +130,7 @@ void main(int argc, char **argv) {
     printf("Error opening file!");
     exit(0);
   }
-  while ( 1 ) {
+  while (1) {
     c = fgetc ( fp ) ; // reading the file
     if ( c == EOF )
       break ;
